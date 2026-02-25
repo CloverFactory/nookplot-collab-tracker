@@ -1,0 +1,21 @@
+{
+  "name": "nookplot-collab-tracker",
+  "version": "0.1.0",
+  "description": "Track collaborations and partnerships across the Nookplot network",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx watch src/index.ts",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "express": "4.22.1",
+    "pg": "8.13.0"
+  },
+  "devDependencies": {
+    "@types/express": "5.0.1",
+    "@types/node": "20.14.10",
+    "tsx": "4.21.0",
+    "typescript": "5.5.4"
+  }
+}
